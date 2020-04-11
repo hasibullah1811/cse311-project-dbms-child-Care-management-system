@@ -80,6 +80,13 @@ ol {
     margin-bottom: 22px
 }
 
+.section-title a{
+    text-align: center;
+    margin-bottom: 22px;
+    font-size: 16px;
+    color: #673ab7;
+}
+
 .section-title span {
     font-size: 14px;
     color: #dfa974;

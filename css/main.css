@@ -10,7 +10,6 @@
     font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
 }
 
-
 /* ==========================================================================
    #GRID
    ========================================================================== */
@@ -46,11 +45,9 @@
     }
 }
 
-
 /* ==========================================================================
    #BOX-SIZING
    ========================================================================== */
-
 
 /**
  * More sensible default box-sizing:
@@ -68,56 +65,32 @@ html {
     margin: 0;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
 }
 
-
 /* ==========================================================================
    #RESET
    ========================================================================== */
-
 
 /**
  * A very simple reset that sits on top of Normalize.css.
  */
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-blockquote,
-p,
-pre,
-dl,
-dd,
-ol,
-ul,
-figure,
-hr,
-fieldset,
-legend {
+body, h1, h2, h3, h4, h5, h6, blockquote, p, pre, dl, dd, ol, ul, figure, hr, fieldset, legend {
     margin: 0;
     padding: 0;
 }
-
 
 /**
  * Remove trailing margins from nested lists.
  */
 
-li>ol,
-li>ul {
+li>ol, li>ul {
     margin-bottom: 0;
 }
-
 
 /**
  * Remove default table spacing.
@@ -127,7 +100,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
 
 /**
  * 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
@@ -146,7 +118,6 @@ button {
     border: none;
 }
 
-
 /* ==========================================================================
    #PAGE WRAPPER
    ========================================================================== */
@@ -161,12 +132,7 @@ body {
     font-size: 14px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
@@ -194,6 +160,13 @@ h6 {
     font-size: 13px;
 }
 
+a{
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    font-weight: 300;
+
+}
 
 /* ==========================================================================
    #BACKGROUND
@@ -208,13 +181,12 @@ h6 {
 }
 
 .bg-gra-01 {
-    background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
-    background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-    background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-    background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-    background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#DFA974));
+    background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #DFA974 100%);
+    background: -moz-linear-gradient(bottom, #fbc2eb 0%, #DFA974 100%);
+    background: -o-linear-gradient(bottom, #fbc2eb 0%, #DFA974 100%);
+    background: linear-gradient(to top, #fbc2eb 0%, #DFA974 100%);
 }
-
 
 /* ==========================================================================
    #SPACING
@@ -244,7 +216,6 @@ h6 {
     padding-bottom: 100px;
 }
 
-
 /* ==========================================================================
    #WRAPPER
    ========================================================================== */
@@ -264,7 +235,6 @@ h6 {
 .wrapper--w680 {
     max-width: 680px;
 }
-
 
 /* ==========================================================================
    #BUTTON
@@ -297,13 +267,12 @@ h6 {
 }
 
 .btn--green {
-    background: #57b846;
+    background: #DFA974;
 }
 
 .btn--green:hover {
     background: #4dae3c;
 }
-
 
 /* ==========================================================================
    #DATE PICKER
@@ -317,8 +286,7 @@ input[type="date" i] {
     padding: 14px;
 }
 
-.table-condensed td,
-.table-condensed th {
+.table-condensed td, .table-condensed th {
     font-size: 14px;
     font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
     font-weight: 400;
@@ -339,8 +307,7 @@ input[type="date" i] {
     margin-top: 5px;
 }
 
-.daterangepicker::after,
-.daterangepicker::before {
+.daterangepicker::after, .daterangepicker::before {
     display: none;
 }
 
@@ -357,7 +324,6 @@ input[type="date" i] {
     padding: 5px;
     outline: none;
 }
-
 
 /* ==========================================================================
    #FORM
@@ -428,7 +394,6 @@ input {
     /* Microsoft Edge */
     color: #ccc;
 }
-
 
 /* ==========================================================================
    #SELECT2
@@ -514,7 +479,6 @@ input {
     overflow: hidden;
 }
 
-
 /* ==========================================================================
    #TITLE
    ========================================================================== */
@@ -525,7 +489,6 @@ input {
     font-weight: 400;
     margin-bottom: 36px;
 }
-
 
 /* ==========================================================================
    #CARD
@@ -552,7 +515,7 @@ input {
 }
 
 .card-3 .card-heading {
-    background: url("../img/register-bg.jpg") top left/cover no-repeat;
+    background: url("../img/register-banner.jpg") top left/cover no-repeat;
     display: table-cell;
     width: 50%;
 }
